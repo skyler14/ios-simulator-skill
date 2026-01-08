@@ -36,7 +36,20 @@ Uses semantic navigation on accessibility APIs to interact with elements by thei
 
 ## Installation
 
-### As Claude Code Skill
+### Self-Registration (Recommended)
+
+```bash
+# Clone the repository
+git clone https://github.com/conorluddy/ios-simulator-skill.git
+cd ios-simulator-skill
+
+# Register with your AI platform
+python skill/scripts/register.py --register code    # Claude Code
+python skill/scripts/register.py --register agent   # Antigravity/Gemini
+python skill/scripts/register.py --register help    # Show documentation
+```
+
+### As Claude Code Skill (Manual)
 
 ```bash
 # Personal installation
